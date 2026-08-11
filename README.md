@@ -13,6 +13,7 @@ Notebooks and code from my Machine Learning course labs. Each folder is one lab 
 | [6](Lab%206/) | Logistic regression vs KNN | Same Breast Cancer dataset, compared the two classifiers head to head |
 | [7](lab%207/) | Decision trees | Iris dataset, Gini vs entropy, grid search over max_depth / min_samples_split / min_samples_leaf, plotted the resulting tree |
 | [8](Lab%208/) | Naive Bayes, DT, LR, SVM comparison | Encoded the Play Tennis dataset and compared `CategoricalNB`, `DecisionTreeClassifier`, `LogisticRegression`, and `SVC` on accuracy + single-sample predictions |
+| [9](Lab%209/) | SVM, PCA & LDA | Applied SVM (linear/RBF tuned with GridSearchCV) on Breast Cancer dataset; reduced dimensionality of Wine dataset using PCA & supervised LDA, evaluating explained variance and decision boundaries |
 
 ## Structure
 
@@ -25,6 +26,7 @@ ML_Lab/
 ├── Lab 6/          logistic regression vs KNN
 ├── lab 7/          decision trees
 ├── Lab 8/          Naive Bayes vs DT vs LR vs SVM
+├── Lab 9/          SVM, PCA & LDA
 └── Lab Manual/     course manual (.docx)
 ```
 
