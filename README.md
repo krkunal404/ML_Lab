@@ -14,6 +14,7 @@ Notebooks and code from my Machine Learning course labs. Each folder is one lab 
 | [7](lab%207/) | Decision trees | Iris dataset, Gini vs entropy, grid search over max_depth / min_samples_split / min_samples_leaf, plotted the resulting tree |
 | [8](Lab%208/) | Naive Bayes, DT, LR, SVM comparison | Encoded the Play Tennis dataset and compared `CategoricalNB`, `DecisionTreeClassifier`, `LogisticRegression`, and `SVC` on accuracy + single-sample predictions |
 | [9](Lab%209/) | SVM, PCA & LDA | Applied SVM (linear/RBF tuned with GridSearchCV) on Breast Cancer dataset; reduced dimensionality of Wine dataset using PCA & supervised LDA, evaluating explained variance and decision boundaries |
+| [10](lab%2010/) | XOR with an MLP (Keras, TensorFlow, PyTorch) | Solved the non-linearly-separable XOR problem with a 2-4-1 MLP, implementing it three ways (Keras `Sequential`, low-level TensorFlow with `GradientTape`, and PyTorch), then compared training curves, decision boundaries, and the effect of learning rate |
 
 ## Structure
 
@@ -27,9 +28,10 @@ ML_Lab/
 ├── lab 7/          decision trees
 ├── Lab 8/          Naive Bayes vs DT vs LR vs SVM
 ├── Lab 9/          SVM, PCA & LDA
+├── lab 10/         XOR with an MLP (Keras, TensorFlow, PyTorch)
 └── Lab Manual/     course manual (.docx)
 ```
 
 ## Stack
 
-Python, pandas, NumPy, scikit-learn, matplotlib, seaborn — mostly run through Jupyter notebooks.
+Python, pandas, NumPy, scikit-learn, matplotlib, seaborn, TensorFlow/Keras, PyTorch — mostly run through Jupyter notebooks.
